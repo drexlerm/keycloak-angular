@@ -1,10 +1,10 @@
 {
   "name": "keycloak-angular",
-  "version": "16.1.0",
+  "version": "16.1.0-patched",
   "description": "Easy Keycloak setup for Angular applications",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/mauriciovigolo/keycloak-angular.git"
+    "url": "git+ssh://git@github.com/drexlerm/keycloak-angular"
   },
   "author": {
     "name": "Mauricio Gemelli Vigolo",
@@ -26,12 +26,15 @@
     "oidc"
   ],
   "peerDependencies": {
-    "@angular/common": "^18",
-    "@angular/core": "^18",
-    "@angular/router": "^18",
+    "@angular/common": "^18 || ^19",
+    "@angular/core": "^18 || ^19",
+    "@angular/router": "^18 || ^19",
     "keycloak-js": "^18 || ^19 || ^20 || ^21 || ^22 || ^23 || ^24 || ^25 || ^26"
   },
   "dependencies": {
     "tslib": "^2.3.1"
+  },
+  "publishConfig": {
+    "registry": "https://repo-nexus.orbis.dedalus.com/nexus/repository/npm-internal/"
   }
 }

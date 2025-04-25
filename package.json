@@ -1,6 +1,6 @@
 {
   "name": "keycloak-angular",
-  "version": "16.1.0",
+  "version": "16.1.0-patched",
   "description": "Easy Keycloak setup for Angular applications",
   "scripts": {
     "clean": "shx rm -rf ./dist/",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/mauriciovigolo/keycloak-angular.git"
+    "url": "git+ssh://git@github.com/drexlerm/keycloak-angular"
   },
   "author": {
     "name": "Mauricio Gemelli Vigolo",
